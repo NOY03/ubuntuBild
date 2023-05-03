@@ -20,7 +20,7 @@ echo "# Make workspace.\n"
 mkdir $HOME/workspace
 
 echo "# Install basic apps.\n"
-app-get install -y git python3-pip npm php net-tools bash-completion locate
+apt-get install -y git python3-pip npm php net-tools bash-completion locate
 
 
 
